@@ -1,0 +1,75 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif; /* Fuente más relajada */
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    font-size: 22px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#nuevaTarea {
+    padding: 7px;
+    width: 230px;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+    margin-right: 8px;
+    font-size: 13px;
+    background-color: #f0f0f0;
+    color: #555;
+}
+
+#btnnuevaTarea {
+    background-color: #b0b0b0; 
+    color: #333;
+    padding: 7px 14px;
+    border: 1px solid #888;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s ease;
+}
+
+#btnnuevaTarea:hover {
+    background-color: #a0a0a0;
+}
+
+#listaTareas {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+    width: 280px;
+}
+
+#listaTareas li {
+    background-color: #dcdcdc;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #444;
+    border: 1px solid #aaa;
+}
+
+#listaTareas li button {
+    background-color: #c4a1a1; 
+    border: none;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#listaTareas li button:hover {
+    background-color: #b07f7f;
+}
